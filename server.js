@@ -40,7 +40,7 @@ microgear.on("present", function(event) {
   var obj = event
   console.log(obj);
   var data = JSON.stringify({"name": obj.alias, "status": obj.type});
-  console.log(data);
+  //console.log(data);
 });
 
 microgear.connect(APPID);
