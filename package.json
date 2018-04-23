@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Kitravee/deploynode_microgear#readme",
   "dependencies": {
-    "microgear": "^0.8.1"
+    "microgear": "^0.8.1",
+    "request": "^2.85.0"
   }
 }

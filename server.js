@@ -1,3 +1,4 @@
+var request = require('request');
 var http = require('http'); 
  http.createServer(function (req, res) {
    // write the code here if it needs to execute every time
@@ -36,7 +37,10 @@ microgear.on('closed', function() {
 });
 
 microgear.on("present", function(event) {
-	console.log(event);
+  var obj = event
+  console.log(obj);
+  var data = JSON.stringify({"name": obj.alias, "status": obj.type});
+  console.log(data);
 });
 
 microgear.connect(APPID);
