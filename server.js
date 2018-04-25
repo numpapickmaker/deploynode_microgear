@@ -10,10 +10,10 @@ var http = require('http');
 
 var MicroGear = require('microgear');
 
-  const APPID     = "disconnecttest";
-  const KEY    = "dSWLQYU2ifZhWhb";
-  const SECRET = "7Cdz1i7uEcwcLWeBEbkElTqNH";
-  const ALIAS = "DigitalOUTPUT_HTML_web"; 
+  const APPID     = "numpapicklinebot";
+  const KEY    = "U12xgTIw6lD02Sy";
+  const SECRET = "IHdml3MkM9OKCXXBG4MZ9tbNl";
+  const ALIAS = "backend"; 
 
 var microgear = MicroGear.create({
     key : KEY,
