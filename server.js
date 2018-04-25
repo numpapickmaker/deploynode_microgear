@@ -68,5 +68,5 @@ req.on('error', function(e) {
   console.log('problem with request: ' + e.message);
 });
 // write data to request body
-req.write('{"check": "Hello, World"}');
+req.write('{"check":[ "text": "Hello, World"] }');
 req.end();
